@@ -34,20 +34,15 @@
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html" role="button"  aria-expanded="false">
                               Products
                             </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Balloons</a></li>
-                              <li><a class="dropdown-item" href="#">Backdrops</a></li>
-                              <li><a class="dropdown-item" href="#">Neon Signs</a></li>
-                            </ul>
                             </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Register</a>
+                          <a class="nav-link" href="signup.html">Register</a>
                         </li>
                         </ul>
                     </div>
@@ -59,7 +54,7 @@
                     </svg>
                 </a>
 
-                  <a href="#" class="login-button ">Login</a>
+                  <a href="login.html" class="login-button ">Login</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -70,24 +65,65 @@
         </header>
        
         <main>
-        <!--Hero Begins-->
-            <container class="background">
-                <section>
+          <div class="col-12">
+            <div class="card" style="border-radius: 1rem;">
+              <div class="row g-0">
+                <div class="col-md-6 col-lg-5 d-none d-md-block">
+                  <img src="images/sky.jpg" alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;">
+                </div>
+                <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                  <div class="card-body p-4 p-lg-5 text-black">
+  
+                    <form>
+  
+                      <div class="d-flex align-items-center mb-3 pb-1">
+                        <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                        <span class="h1 fw-bold mb-0">ILUMI BALLOONS</span>
+                      </div>
+  
+                      <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+  
+                      <div data-mdb-input-init="" class="form-outline mb-4" data-mdb-input-initialized="true">
+                        <input type="email" id="form2Example17" class="form-control form-control-lg">
+                        <label class="form-label" for="form2Example17" style="margin-left: 0px;">Email address</label>
+                      <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+  
+                      <div data-mdb-input-init="" class="form-outline mb-4" data-mdb-input-initialized="true">
+                        <input type="password" id="form2Example27" class="form-control form-control-lg">
+                        <label class="form-label" for="form2Example27" style="margin-left: 0px;">Password</label>
+                      <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 64px;"></div><div class="form-notch-trailing"></div></div></div>
+  
+                      <div class="pt-1 mb-4">
+                        <button data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-dark btn-lg btn-block" type="button" data-mdb-button-initialized="true">Login</button>
+                      </div>
+  
+                      <a class="small text-muted" href="#!">Forgot password?</a>
+                      <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="#!" style="color: #393f81;">Register here</a></p>
+                      <a href="#!" class="small text-muted">Terms of use.</a>
+                      <a href="#!" class="small text-muted">Privacy policy</a>
+                    </form>
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
 
-
-
-                </section>
-            </container>
-<!--Hero Ends-->
         </main>
-        
-        
-        
-        
-        <footer>
-            <!-- place footer here -->
+   
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          </ul>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script

@@ -88,3 +88,25 @@
 .shopping:hover {
     fill: #615062;
 }
+
+.list {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 6%;
+
+}
+
+body {
+    background-image: url(/images/Background.png);
+}
+
+.px-4 {
+    background-color: #CBB9D9;
+}
+
+footer {
+    background-color: #CBB9D9;
+}
+

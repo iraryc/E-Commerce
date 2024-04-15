@@ -34,20 +34,15 @@
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html" role="button" aria-expanded="false">
                               Products
                             </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Balloons</a></li>
-                              <li><a class="dropdown-item" href="#">Backdrops</a></li>
-                              <li><a class="dropdown-item" href="#">Neon Signs</a></li>
-                            </ul>
                             </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Register</a>
+                          <a class="nav-link" href="signup.html">Register</a>
                         </li>
                         </ul>
                     </div>
@@ -59,7 +54,7 @@
                     </svg>
                 </a>
 
-                  <a href="#" class="login-button ">Login</a>
+                  <a href="login.html" class="login-button ">Login</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -71,15 +66,53 @@
        
         <main>
         <!--Hero Begins-->
-            <container class="background">
-                <section>
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-9 col-lg-7 col-xl-7">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body p-5">
+                <h2 class="text-uppercase text-center mb-5">Create an account</h2>
 
+                <form>
 
+                  <div data-mdb-input-init="" class="form-outline mb-4" data-mdb-input-initialized="true">
+                    <input type="text" id="form3Example1cg" class="form-control form-control-lg">
+                    <label class="form-label" for="form3Example1cg" style="margin-left: 0px;">Your Name</label>
+                  <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 71.2px;"></div><div class="form-notch-trailing"></div></div></div>
 
+                  <div data-mdb-input-init="" class="form-outline mb-4" data-mdb-input-initialized="true">
+                    <input type="email" id="form3Example3cg" class="form-control form-control-lg">
+                    <label class="form-label" for="form3Example3cg" style="margin-left: 0px;">Your Email</label>
+                  <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 68.8px;"></div><div class="form-notch-trailing"></div></div></div>
 
+                  <div data-mdb-input-init="" class="form-outline mb-4" data-mdb-input-initialized="true">
+                    <input type="password" id="form3Example4cg" class="form-control form-control-lg">
+                    <label class="form-label" for="form3Example4cg" style="margin-left: 0px;">Password</label>
+                  <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 64px;"></div><div class="form-notch-trailing"></div></div></div>
 
-                </section>
-            </container>
+                  <div data-mdb-input-init="" class="form-outline mb-4" data-mdb-input-initialized="true">
+                    <input type="password" id="form3Example4cdg" class="form-control form-control-lg">
+                    <label class="form-label" for="form3Example4cdg" style="margin-left: 0px;">Repeat your password</label>
+                  <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 136px;"></div><div class="form-notch-trailing"></div></div></div>
+
+                  <div class="form-check d-flex justify-content-center mb-5">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg">
+                    <label class="form-check-label" for="form2Example3g">
+                      I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                    </label>
+                  </div>
+
+                  <div class="d-flex justify-content-center">
+                    <button type="button" data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" data-mdb-button-initialized="true">Register</button>
+                  </div>
+
+                  <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!" class="fw-bold text-body"><u>Login here</u></a></p>
+
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
 <!--Hero Ends-->
         </main>
         
