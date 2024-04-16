@@ -110,3 +110,27 @@ footer {
     background-color: #CBB9D9;
 }
 
+.btn {
+    border-color: #615062;
+    color: #615062;
+}
+
+.btn:hover {
+    background-color: #615062;
+    color: white;
+    border-color: #615062;
+}
+
+.aboutus {
+    background-color: pink;
+    padding: 50px;
+    width: 80%;
+    position: relative;
+    left: 11%;
+    border-radius: 20px;
+}
+
+.title {
+    padding-bottom: 2.5%;
+}
+
