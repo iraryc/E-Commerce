@@ -121,16 +121,28 @@ footer {
     border-color: #615062;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
 .aboutus {
     background-color: pink;
-    padding: 50px;
+    padding: 30px;
     width: 80%;
-    position: relative;
-    left: 11%;
     border-radius: 20px;
+    text-align: center;
 }
 
 .title {
-    padding-bottom: 2.5%;
+    text-align: center;
+    padding-bottom: 4%;
+    padding-top: 0px;
 }
 
+.ourmission {
+    background-color: pink;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+}
