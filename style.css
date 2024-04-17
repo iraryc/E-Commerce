@@ -99,7 +99,9 @@
 }
 
 body {
-    background-image: url(/images/Background.png);
+     background-image: url(/images/Background.png);
+   
+
 }
 
 .px-4 {
@@ -186,4 +188,5 @@ footer {
 
 .sign {
     background-image: url(/images/background2.jpg);
+    background-size: cover;
 }
