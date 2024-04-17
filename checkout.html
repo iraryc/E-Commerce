@@ -25,7 +25,7 @@
             <!-- place navbar here -->
             <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container-fluid">
-                  <a class="navbar-brand me-auto" href="#">ILUMI BALLOONS</a>
+                  <a class="navbar-brand me-auto" href="index.html">ILUMI BALLOONS</a>
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                       <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ILUMI BALLOONS</h5>
@@ -65,12 +65,12 @@
 
             <!-- Body Begins -->
         </header>
-          <body class="bg-body-tertiary">
-          <div class="container pt-5 mt-5 pb-5 mb-5">
+          <body class="bg-body-tertiary" style="margin-top: 8%;">
+          <div class="container pt-5 mt-5 pb-5">
         <main>
           <div class="card" style="border-radius: 16px;">
-          <div class="py-5 text-center">
-            <img class="d-block mx-auto mb-4" src="/images/center.png" alt="" width="150" height="150" style="background-size: cover;">
+          <div class="py-2 text-center">
+            <img class="d-block mx-auto mb-4" src="/images/center.png" alt="" width="200" height="200" style="background-size: cover;">
             <h2>Checkout </h2>
             <p class="lead">Thank you for choosing Ilumi Balloons! Your celebration is about to get a lot more colorful and fun!</p>
           </div>
@@ -223,15 +223,15 @@
                 <h4 class="mb-3">Payment</h4>
       
                 <div class="my-3">
-                  <div class="form-check">
+                  <div class="form-check form-check-inline">
                     <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
                     <label class="form-check-label" for="credit">Credit card</label>
                   </div>
-                  <div class="form-check">
+                  <div class="form-check form-check-inline">
                     <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
                     <label class="form-check-label" for="debit">Debit card</label>
                   </div>
-                  <div class="form-check">
+                  <div class="form-check form-check-inline">
                     <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
                     <label class="form-check-label" for="paypal">PayPal</label>
                   </div>
@@ -291,6 +291,16 @@
         
         <footer>
             <!-- place footer here -->
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            </ul>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
