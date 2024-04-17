@@ -183,3 +183,7 @@ footer {
     padding-top: 5%;
     color: black;
 }
+
+.sign {
+    background-image: url(/images/background2.jpg);
+}

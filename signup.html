@@ -20,7 +20,8 @@
 
     </head>
 
-    <body>
+    <body class="sign">
+    
         <header>
             <!-- place navbar here -->
             <nav class="navbar navbar-expand-lg fixed-top">
@@ -68,11 +69,11 @@
        <!--Hero Begins-->
 
        <form>
-       <div class="mt-5">
+       <div class="pt-5 mt-5 pb-5 mb-5">
         
         <div class="row d-flex justify-content-center align-items-center h-100">
-          <div class="col-12 col-md-9 col-lg-7 col-xl-7">
-            <div class="card" style="border-radius: 15px;">
+          <div class="col-6 col-md-9 col-lg-7 col-xl-7">
+            <div class="card" style="border-radius: 16px;">
               <div class="test mt-5">
 
              
@@ -99,6 +100,28 @@
                   <div data-mdb-input-init="" class="form-outline mb-4" data-mdb-input-initialized="true">
                     <input type="password" id="form3Example4cdg" class="form-control form-control-lg">
                     <label class="form-label" for="form3Example4cdg" style="margin-left: 0px;">Repeat your password</label>
+                    <div class="my-3">
+                     
+                      <!--Radio Buttons Begins-->
+                      <div class="container3 text-center">
+                        <p>How did you hear about us?</p>
+                        <div class="list">
+                      <div class="form-check form-check-inline">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                        <label class="form-check-label" for="credit">Instagram</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                        <label class="form-check-label" for="debit">Marketplace</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                        <label class="form-check-label" for="paypal">Friend</label>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  
                   <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 136px;"></div><div class="form-notch-trailing"></div></div></div>
 
                   <div class="form-check d-flex justify-content-center mb-5">
@@ -106,21 +129,22 @@
                     <label class="form-check-label" for="form2Example3g">
                       I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
                     </label>
-                  </div>
+                    </div>
+                   
+                    <div class="d-flex justify-content-center">
+                      <button type="button" data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" data-mdb-button-initialized="true">Register</button>
+                    </div>
+  
+                    <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.html" class="fw-bold text-body"><u>Login here</u></a></p>
+                 
 
-                  <div class="d-flex justify-content-center">
-                    <button type="button" data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" data-mdb-button-initialized="true">Register</button>
-                  </div>
-
-                  <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!" class="fw-bold text-body"><u>Login here</u></a></p>
-
-                </form>
               </div>
               </div>
             </div>
           </div>
         </div>  
         </div>
+      </form>
 <!--Hero Ends-->
         </main>
         
@@ -129,6 +153,16 @@
         
         <footer>
             <!-- place footer here -->
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            </ul>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
