@@ -93,6 +93,7 @@
 
 body {
      background-image: url(/images/Background.png);
+     background-size: cover;
    
 
 }
@@ -190,4 +191,33 @@ ul li {
     display: inline-block;
     text-align: center;
     color: #615062;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 4px;
+    background-color: #615062;
+    margin: 16px auto 24px auto;
+}
+
+.section-title p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconbox {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: purple;
+    color: white;
+    font-size: 34px;
+    flex: none;
 }
