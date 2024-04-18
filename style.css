@@ -89,13 +89,7 @@
     fill: #615062;
 }
 
-.list {
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
 
-}
 
 body {
      background-image: url(/images/Background.png);
@@ -122,23 +116,10 @@ footer {
     border-color: #615062;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
-.aboutus {
-    background-color: pink;
-    padding: 30px;
-    width: 80%;
-    border-radius: 20px;
-    text-align: center;
-}
 
-.title {
-    text-align: center;
-    padding-bottom: 4%;
-    padding-top: 0px;
-}
+
+
+
 
 .ourmission {
     background-color: pink;
@@ -196,7 +177,17 @@ footer {
     height: auto;
 }
 
-.ilumi {
+#hero {
     background-color: #CBB9D9;
-    padding-bottom: 18em !important;
+    background-position: center;
+    background-size: cover;
+
+}
+
+ul li {
+    text-decoration: none;
+    padding: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    color: #615062;
 }
