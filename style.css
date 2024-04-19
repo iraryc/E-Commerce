@@ -1,4 +1,7 @@
-
+.productback {
+    background-image: url(/images/background1.jpg);
+    background-size: cover;
+}
 .navbar {
     background-color: #CBB9D9;
     height: 80px;
@@ -22,18 +25,18 @@
 
 
 .login-button {
-    background-color: purple;
+    background-color: #82747C;
     color: white;
     font-size: 14px;
     padding: 8px 30px;
-    border-radius: 16px;
+    border-radius: 20px;
     text-decoration: none;
     transition: 0.3s background-color;
 }
 
 .login-button:hover {
-    background-color: #CDA8C7;
-    color: #615062;
+    background-color: #39223a;
+    color: White;
 }
 
 .navbar-toggler {
@@ -53,7 +56,7 @@
 }
 
 .nav-link:hover, .nav-link.active {
-    color: #615062;
+    color: #39223a;
 }
 
 @media (min-width: 991px) {
@@ -65,7 +68,7 @@
     transform:translateX(-50%);
     width: 0%;
     height: 2px;
-    background-color: purple;
+    background-color: #39223a;
     visibility: hidden;
     transition: 0.3s ease-in-out;
 }
@@ -116,13 +119,13 @@ footer {
 }
 
 .btn {
-    border-color: #615062;
-    color: #615062;
+    border-color: #CBB9D9;
+    color: #CBB9D9;
 }
 
 .btn:hover {
-    background-color: #615062;
-    color: white;
+    background-color: #CBB9D9;
+    color: #39223a;
     border-color: #615062;
 }
 
@@ -143,6 +146,12 @@ footer {
     display: flex;
     justify-content: center;
    }
+
+.card {
+    background-color: #CDA8C7;
+}
+
+
 
  .card1 {
     background-image: url(/images/birthday1.jpg);
@@ -280,10 +289,12 @@ color: white;
 
 .messagebutton {
     background-color: #CBB9D9;
+    color: #39223a;
 }
 
 .messagebutton:hover {
-    background-color: #82747C ;
+    background-color: #39223a ;
+    color: #CBB9D9;
 }
 
 #contact .form-control:focus {
@@ -291,3 +302,35 @@ color: white;
    border-color: #db99bf;
    border-width: 4px;
 }
+
+
+
+.card-body {
+    background-color: #615062;
+}
+
+.card-text {
+    color: lightgrey; 
+    letter-spacing: 1.5px;
+}
+
+#signup .form-control:focus {
+    box-shadow: none;
+    border-color: #615062;
+    border-width: 4px;
+ }
+
+ #signup2 {
+    background-color: #CDA8C7;
+ }
+
+ .registerbut {
+    background-color: #82747C;
+    color: #f6e9ff !important;
+ }
+
+ .registerbut:hover {
+    background-color: #39223a;
+    color: #CBB9D9 !important;
+ }
+
