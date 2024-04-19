@@ -2,6 +2,8 @@
     background-image: url(/images/background1.jpg);
     background-size: cover;
 }
+
+/*Nav Begins*/
 .navbar {
     background-color: #CBB9D9;
     height: 80px;
@@ -9,14 +11,14 @@
 }
 
 
-.navbar-brand {
+.navbar-brand { /*this is my ilumi title*/
     font-weight: 500;
     color: white;
     font-size: 25px;
     transition: 0.3s color;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover { /*this is my ilumi title when you hover over it*/
     font-weight: 500;
     color: #615062;
     font-size: 25px;
@@ -24,7 +26,7 @@
 }
 
 
-.login-button {
+.login-button { /*this is my login button */
     background-color: #82747C;
     color: white;
     font-size: 14px;
@@ -34,7 +36,7 @@
     transition: 0.3s background-color;
 }
 
-.login-button:hover {
+.login-button:hover { /*this is my login button hover */
     background-color: #39223a;
     color: White;
 }
@@ -50,8 +52,8 @@
 }
 
 .nav-link {
-    color: #615062;
-    font-weight: 500;
+    color: #615062; /*this changed the color of my home, products and register*/
+    font-weight: 500; /*this make my font thicker*/
     position: relative;
 }
 
@@ -97,7 +99,7 @@
     fill: #615062;
 }
 
-
+/*Nav Ends*/
 
 body {
      /* background-image: url(/images/Background.png);
