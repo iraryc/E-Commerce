@@ -334,6 +334,55 @@ color: white;
     color: #CBB9D9 !important;
  }
 
+ #checkoutpage1 .form-control:focus {
+    box-shadow: none;
+    border-color: #615062;
+    border-width: 4px;
+ }
+
  .checkoutcol {
     color: #39223a;
  }
+.checkoutbutt {
+    background-color: #39223a;
+}
+
+#login1 .form-control:focus {
+    box-shadow: none;
+    border-color: #615062;
+    border-width: 4px;
+}
+
+.loginbutton1 {
+    background-color: #82747C;
+    color: #39223a;
+}
+
+.loginbutton1:hover {
+    background-color: #39223a;
+    color: #82747C;
+}
+
+.bday {
+    color: rgb(1, 146, 1);
+}
+
+.bbsh {
+    color: #a74b80;
+}
+
+.gradrad {
+    color: #375581;
+}
+
+.genrev {
+    color: rgb(92, 39, 153);
+}
+
+.wedd {
+    color: #832424;
+}
+
+.mmmor {
+    color: #056e66;
+}
