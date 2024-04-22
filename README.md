@@ -6,17 +6,23 @@ This is my balloon business website called Ilumi Balloons. I created this websit
 <p>
   <img src="images/Firstpage.png" alt="Home page" width="738"></p>
 
-  Products Page
+  <h1>Products Page</h1>
   <p>
   <img src="images/secondpage.png" alt="Products Page" width="738">
   </p>
-  <p>Signup Page
+
+  <h1>Signup Page</h1>
+  <p>
   <img src="images/thirdpage.png" alt="Signup page" width="738">
   </p>
-  <p>Checkout Page
+
+  <h1>Checkout Page</h1>
+  <p>
   <img src="images/fourthpage.png" alt="Checkout page" width="738">
   </p>
-  <p>Login Page
+
+  <h1>Login Page</h1>
+  <p>
   <img src="images/fifthpage.png" alt="Login page" width="738">
 </p>
 
