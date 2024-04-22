@@ -1,10 +1,12 @@
 # E-Commerce
  E-Commerce Website 
 This is my balloon business website called Ilumi Balloons. I created this website to show my skills in coding html, css and bootstrap. 
-
-<p>Home Page 
+Home Page
+<p>
   <img src="images/Firstpage.png" alt="Home page" width="738"></p>
-  <p>Products Page
+
+  Products Page
+  <p>
   <img src="images/secondpage.png" alt="Products Page" width="738">
   </p>
   <p>Signup Page
