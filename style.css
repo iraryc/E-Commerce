@@ -253,7 +253,7 @@ ul li {
     content: "";
     width: 40px;
     height: 40px;
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     position: absolute;
     bottom: 0;
     right: 0;
